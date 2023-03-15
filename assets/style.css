@@ -1,7 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
 }
+
+header li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-one:hover {
+    cursor: pointer;
+    color: blue;
+}
+
 
 h1 {
     text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.My-Projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-two {
+    width: 30rem;
+}
+
+.photo-one {
+    width: 30rem;
+    height: auto;
 }
