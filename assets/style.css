@@ -56,7 +56,13 @@ h1 {
 }
 
 footer {
+    background-color: aqua;
     display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    justify-content: space-between;
+    padding: 30px 10px;
+    align-items: left;
 }
 
 img {
@@ -93,3 +99,13 @@ img {
     box-sizing: border-box;
     width: 80%;
 }
+
+footer h4 {
+    padding: 20px 0px 10px;
+    font-size: 18px;
+}
+
+footer a {
+    font-size: 15px;
+}
+
