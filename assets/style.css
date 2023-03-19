@@ -27,6 +27,16 @@ header li {
     gap: 1rem;
 }
 
+header li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
 .box-one:hover {
     cursor: pointer;
     color: blue;
